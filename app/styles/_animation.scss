@@ -1,0 +1,70 @@
+.animation-container{
+	position: relative;
+	background: #151515;
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+.circle-button{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 50px;
+	height: 50px;
+	/*border-radius: 50px;*/
+}
+
+#go{
+	/*background: red;*/
+	/*border: 1px solid red;*/
+	svg{
+		fill: red;
+		stroke: red;
+	}
+	/*z-index: 1;*/
+}
+
+#up{
+	/*background: green;*/
+	svg{
+		fill: green;
+	}
+}
+
+#right{
+	/*background: yellow;*/
+	svg{
+		fill: yellow;
+	}
+}
+
+#down{
+	/*background: blue;*/
+	svg{
+		fill: blue;
+	}
+}
+
+#left{
+	/*background: wheat;*/
+	svg{
+		fill: wheat;
+	}
+}
+
+#white-layer{
+	opacity: 0.5;
+	svg{
+		fill: white;
+		stroke: white;
+	}
+}
+
+#black-layer{
+	svg{
+		fill: black;
+		stroke: none;
+	}
+}
